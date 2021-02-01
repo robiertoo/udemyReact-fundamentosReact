@@ -2,6 +2,7 @@ import React from 'react'
 
 import './App.css'
 
+import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import UsuarioInfo from './components/condicional/UsuarioInfo'
@@ -22,6 +23,9 @@ export default _ =>
 
         <div className='Cards'>
 
+            <Card titulo='#11 - Componente Controlado' color='#58a77e'>
+                <Input />
+            </Card>    
             <Card titulo='#10 - Comunicação Indireta' color='#73503C'>
                 <IndiretaPai />
             </Card>    

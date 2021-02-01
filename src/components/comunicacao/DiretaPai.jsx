@@ -14,6 +14,11 @@ export default props => {
                 idade={17}
                 nerd={false}
             />
+            <DiretaFilho 
+                nome='Filho3'
+                idade={6}
+                nerd={true}
+            />
         </div>
     )
 }
