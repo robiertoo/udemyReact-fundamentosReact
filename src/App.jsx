@@ -24,7 +24,6 @@ export default _ =>
 
         <div className='Cards'>
             
-            
             <Card titulo='#12 - Componente Contador' color='#58a77e'>
                 <Contador numeroInicial={10} passo={3} />
             </Card>    
