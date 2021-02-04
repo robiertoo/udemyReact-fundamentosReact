@@ -2,6 +2,7 @@ import React from 'react'
 
 import './App.css'
 
+import Megasena from './components/desafio/Megasena'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
@@ -24,6 +25,9 @@ export default _ =>
 
         <div className='Cards'>
             
+            <Card titulo='#13 - Desafio Megasena' color='#58a77e'>
+                <Megasena />
+            </Card>    
             <Card titulo='#12 - Componente Contador' color='#58a77e'>
                 <Contador numeroInicial={10} passo={3} />
             </Card>    
